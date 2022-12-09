@@ -4,22 +4,25 @@
 写一个猫类, 具备 吃 喝 跑 睡 喵 五项能力
 
 写完之后, 你会发现有一些啥问题
-student:大量重复
+student:大量代码重复
 """
+
+
+# 我有个疑问  算了
 
 
 class animal:
     def eat(self):
-        print("吃")
+        print("吃...")
 
     def drink(self):
-        print("喝")
+        print("喝...")
 
     def run(self):
-        print("跑")
+        print("跑...")
 
     def sleep(self):
-        print("睡")
+        print("睡...")
 
 
 print("动物:")
@@ -31,21 +34,22 @@ animate1.sleep()
 print("\n")
 
 
+# 定义狗类
 class Dog:
     def eat(self):
-        print("吃")
+        print("吃...")
 
     def drink(self):
-        print("喝")
+        print("喝...")
 
     def run(self):
-        print("跑")
+        print("跑...")
 
     def sleep(self):
-        print("睡")
+        print("睡...")
 
     def dark(self):
-        print("汪汪汪")
+        print("汪汪汪...")
 
 
 print("狗:")
@@ -60,19 +64,19 @@ print("\n")
 
 class Cat:
     def eat(self):
-        print("吃")
+        print("吃...")
 
     def drink(self):
-        print("喝")
+        print("喝...")
 
     def run(self):
-        print("跑")
+        print("跑...")
 
     def sleep(self):
-        print("睡")
+        print("睡...")
 
     def dark(self):
-        print("喵喵喵")
+        print("喵喵喵...")
 
 
 print("猫")

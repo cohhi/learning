@@ -30,15 +30,6 @@ class Dog(animal):
         print("汪汪汪")
 
 
-print("动物")
-animal1 = animal("小花", 3)
-print(animal1.name)
-print(animal1.age)
-animal1.eat()
-animal1.sleep()
-animal1.play()
-print("\n")
-
 dog1 = Dog("小黑", 5)
 dog1.eat()
 dog1.sleep()

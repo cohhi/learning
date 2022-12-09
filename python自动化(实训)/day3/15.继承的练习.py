@@ -8,7 +8,7 @@
 
 
 class animal():
-    def __init__(self, name, age, ):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
 
@@ -20,18 +20,12 @@ class animal():
 
 
 class Cat(animal):
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
 
     def mouse(self):
         print("抓老鼠")
 
 
 class Dog(animal):
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
 
     def door(self):
         print("看门")
@@ -40,9 +34,6 @@ class Dog(animal):
 # 定义哮天犬
 # 继承狗类
 class ScreamerDog(Dog):
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
 
     def fly(self):
         print("起飞咯")

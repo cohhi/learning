@@ -10,17 +10,17 @@
 
 
 class Person:
-    def __init__(self, name, height):
+    def __init__(self, name, weight):
         self.name = name
-        self.height = height
+        self.weight = weight
 
     def eat(self):
         print("吃东西...")
-        self.height += 1
+        self.weight += 1
 
     def run(self):
         print("跑步")
-        self.height -= 0.5
+        self.weight -= 0.5
 
 
 ikun = Person("小明", 75)
@@ -29,5 +29,5 @@ ikun.eat()
 # 吃东西 +1
 ikun.run()
 # 跑步 -0.5
-print(ikun.height)
+print(f'体重:{ikun.weight}')
 # 体重
