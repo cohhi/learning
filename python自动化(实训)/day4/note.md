@@ -49,6 +49,23 @@ find_element_by_name		#name定位
 find_element_by_class_name	#class定位
 find_element_by_tag_name	#标签定位
 find_element_by_link_text   #根据内容定位
+find_element_by_xpath('/')  #绝对路径   写上完整路径
+find_element_by_xpath('//') #相对路径  从任意位置查找
+
+find_element_by_css_selector('标签[type="类型"]')  #css选择器
+```
+
+```
+对元素的操作
+click  #点击
+send_keys()  #n模拟键盘输入
+clear()  将元素清空
+size()   获取元素大小
+text() 获取文本信息
+get_attribute()   元素某个属性的值
+is_enabled()  元素是否可用
+is_displayed()  是否可见
+is_selencted()  选定状态
 
 ```
 
