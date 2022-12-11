@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>注册实例</title>
+	<style type="text/css">
+
+		body{background: #F0FFFF; font: "微软雅黑"; text-align:center;}
+		form{width: 98%;background: #F0F8FF;padding: 1px;margin-top: 1%;margin-left:0%}
+		iframe{width: 49%; height: 400px;}
+		input{padding: 5px;background: #f8f8f8; width: 20%;}
+		button{padding: 8px; background: #f8f8f8;border-radius: 5px}
+		button:hover{padding: 10px; background: #2F4F4F}
+		input:focus{background: #FFC0CB}
+
+		span{display: none}
+	</style>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+<form action="" id="form1">
+	<div id="zc">
+		<fieldset>
+		<legend>注册用户</legend>
+			<p id="p1">
+				<label for="user">登录账号：</label>
+		 		<input type="text" name="user" id="user" placeholder="账号" required="" value="">			
+			</p>
+	 		<p>
+				<label for="password">登录密码：</label>		
+				<input type="password" name="password" id="password" placeholder="密码" value="">
+	 		</p>
+			<p>
+				<label for="tel">电话号码：</label>
+				<input type="tel" name="tel" id="tel" placeholder="电话" class="tel" value="">				
+			</p>
+			<p>
+				<label for="email">电子邮件：</label>
+				<input type="email" name="email" id="email" placeholder="电子邮箱" value="" aa="ddd">				
+			</p>
+				<button type="submit" value="注册" title="加入会员">注册用户</button>
+				<hr>
+				<p><span>Span_tagName</span></p>
+				<p><a href="http://www.sina.com.cn" id="fw" target="_blank">访问 新浪 网站</a></p>
+				<p><a href="注册A.html" id="ZCA" target="_blank">注册A网页</a></p>
+				<p><a href="注册B.html" id="ZCB" target="_blank">注册B网页</a></p>
+
+		</fieldset>
+<a href="https://www.163.com" target="myframe1">网易</a>
+<a href="https://www.itcast.cn" target="myframe1">传智</a>
+<a href="https://www.taobao.com" target="myframe2">淘宝</a>
+<a href="https://www.itheima.com" target="myframe2">黑马</a>
+<br>
+<iframe src="注册A.html" frameborder="1" height="500" width="48%" name="myframe1" id="idframe1"></iframe>
+<iframe src="注册B.html" frameborder="1" height="500" width="48%" name="myframe2" id="idframe2"></iframe>   
+</body>
+</html>
